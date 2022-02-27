@@ -15,7 +15,7 @@ num_phone int
 ```
 ![Создание стола](https://github.com/AlexandrKorablev/MySql/blob/main/mySQL%20(5).png)
 ___
-_Заполнение колонн._
+_Заполнение столбцов._
 ```mysql
 use dnsshop;
 INSERT INTO phones (`brand`, `memory`, `color`, `price`) VALUES ('apple', '32gb', 'white', '36000');
@@ -26,7 +26,7 @@ INSERT INTO phones (`brand`, `memory`, `color`, `price`) VALUES ('pixel', '62gb'
 ```
 ![Создание стола](https://github.com/AlexandrKorablev/MySql/blob/main/mySQL%20(2).png)
 ___
-_Изменение в поле колонны._
+_Изменение в поле столбца._
 ```mysql
 use dnsshop;
 UPDATE `phones`
@@ -35,7 +35,7 @@ WHERE `id` = 2;
 ```
 ![Создание стола](https://github.com/AlexandrKorablev/MySql/blob/main/mySQL%20(3).png)
 ___
-_Изменения в колоннах._
+_Изменения в столбцах._
 ```mysql
 use dnsshop;
 ALTER TABLE `phones`
